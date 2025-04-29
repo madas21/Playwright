@@ -23,7 +23,6 @@ test('Check if username error message is display if username field is blank', as
     await expect(userNameErrorMessage).toBeVisible();  
    });
  
- 
    test('Check if password error message is display if password field is blank', async({page})=>{
        
     await page.fill('input[name="name"]','testuser');
